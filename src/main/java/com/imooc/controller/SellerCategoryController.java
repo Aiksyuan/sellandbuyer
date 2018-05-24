@@ -91,5 +91,6 @@ public class SellerCategoryController {
 
         map.put("url", "/sell/seller/category/list");
         return new ModelAndView("common/success", map);
+
     }
 }
