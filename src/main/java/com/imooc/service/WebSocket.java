@@ -28,8 +28,6 @@ public class WebSocket {
         this.session = session;
         webSocketSet.add(this);
         log.info("【websocket消息】有新的连接, 总数:{}", webSocketSet.size());
-
-
     }
 
     @OnClose
